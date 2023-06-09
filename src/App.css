@@ -1,0 +1,41 @@
+.numbers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.numbers button {
+    width: 76px;
+    height: 65px;
+    cursor: pointer;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+}
+
+.number button {
+    border-radius: 0px;
+    border: 1px solid #949296;
+}
+
+.number_value {
+    width: 300px;
+    height: 70px;
+    background: #000;
+    color: #eee;
+    font-size: 30px;
+    border: none;
+}
+
+.operators button{
+    background-color: #F08A4A;
+    color: #eee;
+}
+
+.clear {
+    width: 305px;
+    height: 50px;
+    font-size: 30px;
+}
